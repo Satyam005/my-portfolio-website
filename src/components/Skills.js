@@ -5,25 +5,24 @@ const Skill = ({ name, x, y }) => {
   return (
     <motion.div
       className="flex items-center justify-center rounded-full font-semibold bg-dark text-light
-        py-3 px-6 shadow-dark cursor-pointer absolute"
-      //   whileHover={{ scale: 1.05 }}
-      whileHover={{
-        backgroundColor: [
-          "#121212",
-          "rgba(131,58,180,1)",
-          "rgba(253,29,29,1)",
-          "rgba(252,176,69,1)",
-          "rgba(131,58,180,1)",
-          "#121212",
-        ],
-        transition: {
-          duration: 1,
-          repeat: Infinity,
-        },
-      }}
+        py-3 px-6 shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light"
+      whileHover={{ scale: 1.05 }}
+      // whileHover={{
+      //   backgroundColor: [
+      //     "#121212",
+      //     "rgba(131,58,180,1)",
+      //     "rgba(253,29,29,1)",
+      //     "rgba(252,176,69,1)",
+      //     "rgba(131,58,180,1)",
+      //     "#121212",
+      //   ],
+      //   transition: {
+      //     duration: 1,
+      //     repeat: Infinity,
+      //   },
+      // }}
       initial={{ x: 0, y: 0 }}
-      whileInView={{ x: x, y: y }}
-      transition={{ duration: 1.5 }}
+      whileInView={{ x: x, y: y, transition: { duration: 1.5 } }}
       viewport={{ once: true }}
     >
       {name}
@@ -35,7 +34,7 @@ const Skills = () => {
   return (
     <>
       <h2 className="font-bold text-8xl mt-64 w-full text-center">Skills</h2>
-      <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight">
+      <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark">
         <motion.div
           className="flex items-center justify-center rounded-full font-semibold bg-dark text-light
         p-8 shadow-dark cursor-pointer"
