@@ -134,7 +134,7 @@ const Projects = () => {
     <>
       <Head>
         <title>Satyam | Projects Page</title>
-        <meta name="description" contents="Project Section of my website" />
+        <meta name="description" contents="Projects Section of my website" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
