@@ -5,6 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import portfolioPic from "../../public/images/projects/portfolio_img.png";
 import liftSimulationPic from "../../public/images/projects/lift_simulation_img.png";
 import sketchBoardPic from "../../public/images/projects/sketch_board_img.png";
 import { motion } from "framer-motion";
@@ -145,12 +146,12 @@ const Projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Lift Simulation"
-                summary="A web app created using HTML, CSS, JavaScript where we can simulate lift mechanics for a client"
-                link="https://satyam-lift-simulation.netlify.app/"
-                githubLink="https://github.com/Satyam005/Lift_Simulation"
+                title="Portfolio Website"
+                summary="A portfolio Website created with Nextjs, Tailwind CSS and Framer-motion"
+                link="https://satyamnegi-portfolio.netlify.app/"
+                githubLink="https://github.com/Satyam005/my-portfolio-website"
                 type="Featured Project"
-                img={liftSimulationPic}
+                img={portfolioPic}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -167,7 +168,7 @@ const Projects = () => {
               <Project
                 title="Sketch Board"
                 summary="A sketch board created using HTML, CSS, JavaScript, Canvas where we can draw, erase, create sticky notes, upload images adn even share the board in real time."
-                link="https://satyam-lift-simulation.netlify.app/"
+                link="https://openboard-clone-f582.onrender.com/"
                 githubLink="https://github.com/Satyam005/openboard-clone"
                 type="Board"
                 img={sketchBoardPic}

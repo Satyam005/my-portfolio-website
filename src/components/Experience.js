@@ -77,7 +77,7 @@ const Experience = () => {
             companyLink="https://www.ibm.com/in-en"
             work="Built a utility using React JS that reduced manual labour for
 **100+ employees by 90%** .Extensively used advanced React
-concepts like custom hooks, lifecycle methods, context API, functional components, React Router, HOCs, etc. Worked as a Java developer in DASH-TAS application of Hertz
+concepts like custom hooks, lifecycle methods, context API, functional components, Styled Components, HOCs, etc. Worked as a Java developer in DASH-TAS application of Hertz
 project. It’s a counter application use for booking Hertz rental
 cars across US and European countries.. Converted the Hertz TAS rental booking application from a
 petrol/diesel model to a hybrid model that includes electric
