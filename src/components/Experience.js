@@ -33,13 +33,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         >
           {time} | {address}
         </span>
-        {/* <p className="font-medium w-full">{work}</p> */}
         <ul className="mt-2">
-          {/* {points.map((point) => (
-            <li key={point} className="font-medium w-full mb-1">
-              {point}
-            </li>
-          ))} */}
           {points.map((point) => (
             <li key={point} className="font-medium w-full mb-1 md:text-sm">
               {/* Identify and wrap the bold portion with <strong> tags */}
@@ -96,7 +90,12 @@ to book a rental was **reduced by 30%**."
             time="2022 - Present"
             address="Abids, Hyderabad, Telangana, India."
             companyLink="https://ace.online"
-            work="Played a pivotal role in optimizing the website, resulting in improved performance from **75 to 95%** on the lighthouse tool and enhanced user experience.. Collaborated as a key member of the growth team, actively driving initiatives to increase the user base and create new avenues for revenue generation.. Spearheaded the development of a proprietary test platform, empowering the company to offer a comprehensive and customized learning experience to thousand of its users."
+            work="Played a pivotal role in optimizing the website, resulting in improved performance from **75 to 95%** on the lighthouse tool and enhanced user experience.. Integrated leadsquare and mixpanel events to track user activity and user interactions on the website, **improved lead generation** by implementing targeted lead
+             capture forms using LeadSquare, **enhanced user engagement** by analyzing Mixpanel event data and making
+              data-driven optimizations.. Collaborated as a key member of the **growth team**, actively driving
+               initiatives to increase the user base and create new avenues for revenue generation.. Spearheaded the development
+                of a proprietary test platform, empowering the company to offer a comprehensive and customized learning
+                 experience to **thousand of its users**."
           />
         </ul>
       </div>
