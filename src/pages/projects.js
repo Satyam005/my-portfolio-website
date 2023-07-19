@@ -8,6 +8,7 @@ import React from "react";
 import portfolioPic from "../../public/images/projects/portfolio_img.png";
 import liftSimulationPic from "../../public/images/projects/lift_simulation_img.png";
 import sketchBoardPic from "../../public/images/projects/sketch_board_img.png";
+import letsChatPic from "../../public/images/projects/lets_chat_img.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -172,6 +173,16 @@ const Projects = () => {
                 githubLink="https://github.com/Satyam005/openboard-clone"
                 type="Board"
                 img={sketchBoardPic}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Let's Chat"
+                summary="A real time chat application build with React, Node.js, Express.js, Socket.io"
+                link="https://lets-chat-app-laio.onrender.com/"
+                githubLink="https://github.com/Satyam005/lets-chat-app"
+                type="Featured Project"
+                img={letsChatPic}
               />
             </div>
           </div>
