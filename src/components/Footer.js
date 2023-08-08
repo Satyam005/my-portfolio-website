@@ -22,7 +22,7 @@ const Footer = () => {
           </Link>
         </div>
         <Link
-          href="mailTo:sn.satyam2014@gmail.com"
+          href="https://calendly.com/satyamsinghnegi/30-min-event"
           target="_blank"
           className="underline underline-offset-2"
         >
