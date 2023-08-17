@@ -70,6 +70,20 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Frontend Developer"
+            company="ACE Online"
+            time="2022 - Present"
+            address="Abids, Hyderabad, Telangana, India."
+            companyLink="https://ace.online"
+            work="Played a pivotal role in optimizing the website, resulting in improved performance from **75 to 95%** on the lighthouse tool and enhanced user experience..  Collaborated as a key member of the **growth team**, actively driving
+               initiatives to increase the user base and create new avenues for revenue generation.. Accomplished a **10%** increase in conversion rates, as measured by our analytic tool by doing A/B testing and
+iterative improvements to the website’s landing pages..  Integrated leadsquare and mixpanel events to track user activity and user interactions on the website, **improved lead generation** by implementing targeted lead
+             capture forms using LeadSquare, **enhanced user engagement** by analyzing Mixpanel event data and making
+              data-driven optimizations..  Spearheaded the development
+                of a proprietary test platform, empowering the company to offer a comprehensive and customized learning
+                 experience to **thousand of its users**."
+          />
+          <Details
             position="Application Developer"
             company="IBM India Pvt. Ltd."
             time="2019 - 2022"
@@ -83,19 +97,6 @@ cars across US and European countries.. Converted the Hertz TAS rental booking a
 petrol/diesel model to a hybrid model that includes electric
 vehicles.. Developed the Touchlist Exitgate functionality wherein the time
 to book a rental was **reduced by 30%**."
-          />
-          <Details
-            position="Frontend Developer"
-            company="ACE Online"
-            time="2022 - Present"
-            address="Abids, Hyderabad, Telangana, India."
-            companyLink="https://ace.online"
-            work="Played a pivotal role in optimizing the website, resulting in improved performance from **75 to 95%** on the lighthouse tool and enhanced user experience.. Integrated leadsquare and mixpanel events to track user activity and user interactions on the website, **improved lead generation** by implementing targeted lead
-             capture forms using LeadSquare, **enhanced user engagement** by analyzing Mixpanel event data and making
-              data-driven optimizations.. Collaborated as a key member of the **growth team**, actively driving
-               initiatives to increase the user base and create new avenues for revenue generation.. Spearheaded the development
-                of a proprietary test platform, empowering the company to offer a comprehensive and customized learning
-                 experience to **thousand of its users**."
           />
         </ul>
       </div>
