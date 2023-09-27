@@ -75,7 +75,9 @@ const Experience = () => {
             time="2022 - Present"
             address="Abids, Hyderabad, Telangana, India."
             companyLink="https://ace.online"
-            work="Played a pivotal role in optimizing the website, resulting in improved performance from **75 to 95%** on the lighthouse tool and enhanced user experience..  Collaborated as a key member of the **growth team**, actively driving
+            work="Played a pivotal role in optimizing the website, resulting in improved performance from **75 to 95%** on the lighthouse tool and enhanced user experience..  Developed and maintained a Content Management System (CMS) using **React**: Designed the user interface and
+implemented features for the CMS. Utilized **Redux** to manage the application state and **React Router** for setting
+up single page navigation system.. Collaborated as a key member of the **growth team**, actively driving
                initiatives to increase the user base and create new avenues for revenue generation.. Accomplished a **10%** increase in conversion rates, as measured by our analytic tool by doing A/B testing and
 iterative improvements to the website’s landing pages..  Integrated leadsquare and mixpanel events to track user activity and user interactions on the website, **improved lead generation** by implementing targeted lead
              capture forms using LeadSquare, **enhanced user engagement** by analyzing Mixpanel event data and making
